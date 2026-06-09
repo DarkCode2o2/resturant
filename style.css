@@ -1,0 +1,97 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #fdfaf6 !important;
+}
+
+/* الألوان الخاصة بالعلامة التجارية */
+.text-orange-brand {
+    color: #fd7e14 !important;
+}
+.bg-orange-brand {
+    background-color: #fd7e14 !important;
+    color: white !important;
+}
+.btn-orange-brand {
+    background-color: #fd7e14;
+    color: white;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+.btn-orange-brand:hover {
+    background-color: #e8630a;
+    color: white;
+}
+.btn-outline-orange {
+    border-color: #fd7e14;
+    color: #fd7e14;
+    background: transparent;
+}
+
+.btn-outline-orange:hover {
+    background-color: #fd7e14 !important;
+    color: white !important;
+}
+
+.border-orange-light {
+    border-color: #ffe8cc !important;
+}
+.bg-amber-light {
+    background-color: #fff9db !important;
+}
+
+.go-back-container {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.go-back-btn {
+    display: inline-block;
+    font-size: 12px !important;
+
+}
+
+/* تأثيرات الكروت */
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #ffffff;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(253, 126, 20, 0.1) !important;
+}
+
+/* تنسيق زر الواتساب العائم */
+.floating-whatsapp {
+    position: fixed;
+    bottom: 30px;
+    left: 30px; /* تم وضعه على يسار الشاشة كما طلبت */
+    width: 60px;
+    height: 60px;
+    background-color: #25d366; /* لون الواتساب الرسمي */
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 15px rgba(37, 211, 102, 0.4);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    animation: pulse-animation 2s infinite; /* تشغيل حركة النبض */
+    text-decoration: none;
+}
+
+.floating-whatsapp:hover {
+    background-color: #1ebe57;
+    color: white;
+    transform: scale(1.1); /* يكبر قليلاً عند التمرير عليه */
+}
+
+/* حركة النبض (Pulse Animation) الجذابة والناعمة */
+@keyframes pulse-animation {
+    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
