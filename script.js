@@ -1,15 +1,15 @@
 // بيانات المطعم والمنيو
-const whatsappNumber = '966576346303'; // ضع رقمك هنا
+const whatsappNumber = '966542056933'; // ضع رقمك هنا
 const categories = ['الكل', 'الساندوتشات', 'الوجبات', 'الجانبية', 'المشروبات'];
 let activeCategory = 'الكل';
 let cart = [];
 
 const menu = [
-    { id: 1, name: 'برجر الاستراحة', price: 22, desc: 'شريحة لحم مشوية طازجة مع الجبن الذائب والخضار.', category: 'الساندوتشات', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop' },
-    { id: 2, name: 'مسحب مقرمش', price: 25, desc: 'قطع دجاج مسحب ذهبية متبلة ببهاراتنا السرية تقدم مقرمشة.', category: 'الوجبات', image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=600&auto=format&fit=crop' },
-    { id: 3, name: 'ساندوتش زنجرجي', price: 20, desc: 'صدر دجاج زنجر المقرمش الحار مع خس وصلصة المايونيز.', category: 'الساندوتشات', image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop' },
-    { id: 4, name: 'وجبة مليس', price: 28, desc: 'طبق مليس الشهير والمعد بخلطتنا الفريدة والدافئة.', category: 'الوجبات', image: 'https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop' },
-    { id: 5, name: 'بطاطس مقرمشة', price: 8, desc: 'أصابع بطاطس ذهبية مضاف إليها بهارات الاستراحة.', category: 'الجانبية', image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=600&auto=format&fit=crop' },
+    { id: 1, name: 'برجر لحم دبل', price: 8, desc: 'شريحة لحم مشوية طازجة مع الجبن الذائب والخضار.', category: 'الساندوتشات', image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop' },
+    { id: 2, name: 'ساندويتش مسحب', price: 4, desc: 'قطع دجاج مسحب ذهبية متبلة ببهاراتنا السرية تقدم مقرمشة.', category: 'الساندوتشات', image: 'https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=600&auto=format&fit=crop' },
+    { id: 3, name: 'برجر زنجر', price: 7, desc: 'صدر دجاج زنجر المقرمش الحار مع خس وصلصة المايونيز.', category: 'الساندوتشات', image: 'https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_Q2on26YoEYpYotOGqZ5aq5iQZB4HRQOlgUDYRoexg6R29N7QVXzc68zPjUUglbxSqOFh_RHR_OLri5Wbcu6-xLEzzOJxfnwugEtUodSkZyVn8be9aMMT94fbMlDNF2VPeX5l=w258-h336-p-k-no' },
+    { id: 4, name: 'مليس بالفطير', price: 4, desc: 'مليس بالفطيرة مع جبن سائل و صوصات لذيذة.', category: 'الوجبات', image: 'https://images.unsplash.com/photo-1657114773859-dc80f9765845?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+    { id: 5, name: 'صحن بطاطس كبير', price: 6, desc: 'أصابع بطاطس ذهبية مضاف إليها بهارات الاستراحة.', category: 'الجانبية', image: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=600&auto=format&fit=crop' },
     { id: 6, name: 'عصير طازج', price: 10, desc: 'عصير طبيعي بارد ومعد طازجاً، يفتح الشهية.', category: 'المشروبات', image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?q=80&w=600&auto=format&fit=crop' }
 ];
 
