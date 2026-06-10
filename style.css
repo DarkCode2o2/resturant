@@ -51,6 +51,41 @@ body {
 
 }
 
+/* Hero */
+@media (max-width: 766px) {
+    .hero-section {
+        margin: 0 !important;
+    }
+
+    .hero-section > div  {
+        padding: 0 !important;
+        text-align: right !important;
+    }
+
+    .hero-section > div a {
+        padding: 16px 5px 16px 5px !important;
+        width: 100%;
+    }
+
+}
+
+/* Navbar */
+@media (max-width: 440px) {
+    .navbar > .container > .navbar-brand{
+        display: none;
+    }
+
+    .navbar > .container {
+        justify-content: center !important;
+    }
+
+    .navbar > .container > button {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+}
+
 /* تأثيرات الكروت */
 .card {
     border-radius: 20px;
