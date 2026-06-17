@@ -1,5 +1,5 @@
 // بيانات المطعم والمنيو
-const whatsappNumber = '966542056933'; // ضع رقمك هنا
+const whatsappNumber = '+966576346303'; // ضع رقمك هنا
 const categories = ['الكل', 'الساندوتشات', 'الوجبات', 'الجانبية', 'المشروبات'];
 let activeCategory = 'الكل';
 let cart = [];
